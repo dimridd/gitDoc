@@ -1,0 +1,16 @@
+FOR PULLING THE DATA FROM GIT
+1. stash your data
+#git stash
+2. pull from the git(make sure you are in your branch)
+#git pull origin <BRANCH_NAME>
+
+FOR ADDING YOUR CHANGES
+1.first check your git status
+#git status
+2. then add only the files that are modified rather then doing(#git add .)
+#git add <FILE1> <FILE2> ... <FILEn>
+3. check for the branch(just for your satsisfaction)
+#git branch
+5. finally commit and then push your changes 
+#git commit -m "<MESSAGE>" 
+#git push origin <REMOTE_BRANCH>
