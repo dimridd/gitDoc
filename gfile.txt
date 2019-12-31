@@ -14,3 +14,11 @@ FOR ADDING YOUR CHANGES
 5. finally commit and then push your changes 
 #git commit -m "<MESSAGE>" 
 #git push origin <REMOTE_BRANCH>
+
+######################################################################################################
+RESETTING THE DATABASE
+# python3 manage.py reset_db
+OPTIONAL
+# python3 manage.py makemigrations
+THEN PERFORM MIGRATIION
+# python3 manage.py migrate
